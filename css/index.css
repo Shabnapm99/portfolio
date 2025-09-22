@@ -1,0 +1,82 @@
+html,
+body {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.bg-blue {
+    background-color: rgb(7, 133, 206) !important;
+}
+
+.bg-blueGradient {
+    background: linear-gradient(to right, rgb(0, 38, 59), rgb(15, 163, 249));
+}
+
+.text-blue {
+    color: rgb(7, 133, 206) !important;
+}
+
+.inner-frame {
+    /* transform: rotate(60deg); */
+    /* position: absolute;
+    top: 50%; */
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.outer-frame {
+    /* transform: rotate(45deg); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+
+}
+
+#about .rounded-pill {
+    width: 10px;
+    height: 25px;
+}
+
+.card {
+    border-top: solid 0.3em rgb(7, 133, 206) !important;
+}
+
+/* .img-fixed {
+    width: 50%; */
+/* height: 10vw; */
+/* height: 3em;
+      object-fit: contain;
+} */
+
+/* .line{
+    background-color: rgb(7, 133, 206);
+    width: 3px;
+    height: auto;
+}
+.block{
+    background-color: aqua;
+} */
+/* header{
+    height: 20rem;
+    position: relative;
+} */
+/* .photo-frame1{
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.photo-frame2{
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
