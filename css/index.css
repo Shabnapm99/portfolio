@@ -16,34 +16,96 @@ body {
     color: rgb(7, 133, 206) !important;
 }
 
-.inner-frame {
+#heroSection{
+    height:20rem;
+}
+
+ .inner-frame {
     /* transform: rotate(60deg); */
-    /* position: absolute;
-    top: 50%; */
+    /* top: 50%; 
     position: absolute;
     top: 15%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    border-radius: 15%;
+    width: 13rem;height: 13rem;top: 50%; left: 50%; 
+              transform: translate(-50%, -50%) rotate(-5deg);
+
 }
 
 .outer-frame {
     /* transform: rotate(45deg); */
-    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(45deg); */
+    border-radius: 15%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotate(45deg);
+    transform: translate(-50%,-50%) rotate(5deg);
+    width: 15rem;height: 15rem;
 
+} 
+
+
+.profile-img {
+  /* width: 70%;  /* smaller than inner
+  height: 70%;
+  object-fit: cover; */
+  border-radius: 15%;
+
+  /* position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  width: 10rem;height: 10rem;top: 60%; left: 50%; 
+              transform: translate(-50%, -50%);
+  
 }
 
+
 #about .rounded-pill {
-    width: 10px;
-    height: 25px;
+    width: 1.2rem;
+    height: 3rem;
+}
+.slidingCircle{
+    animation-name: slideMeDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+@keyframes slideMeDown {
+    from{
+top: 0%;
+    }
+    to{
+/* top: 90%; */
+top: calc(100% - 30%);/* to make an absolutely positioned child sit exactly at the bottom edge of the parent. */
+    }
 }
 
 .card {
     border-top: solid 0.3em rgb(7, 133, 206) !important;
 }
 
+.greyBox{
+top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.blueBox{
+top: 40%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+}
+
+@media(max-width:768px){
+    .block{
+        height: 10rem;
+    }
+}
 /* .img-fixed {
     width: 50%; */
 /* height: 10vw; */
