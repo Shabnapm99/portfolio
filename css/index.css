@@ -77,6 +77,10 @@ section {
     height: 0.2em;
 }
 
+.vertical-line {
+    width: 0.2em;
+}
+
 #about .rounded-pill {
     width: 1.2rem;
     height: 3rem;
