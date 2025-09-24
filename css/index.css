@@ -4,7 +4,7 @@ body {
     max-width: 100%;
 }
 
-.bg-blue {
+.bg-blue{
     background-color: rgb(7, 133, 206) !important;
 }
 
@@ -12,8 +12,16 @@ body {
     background: linear-gradient(to right, rgb(0, 38, 59), rgb(15, 163, 249));
 }
 
-.text-blue {
+.text-blue{
     color: rgb(7, 133, 206) !important;
+}
+
+.text-md-white{
+    color: white!important;
+}
+
+p,h1,h2,h3,h4{
+    font-size: 0.9em;
 }
 
 #heroSection{
@@ -21,26 +29,16 @@ body {
 }
 
  .inner-frame {
-    /* transform: rotate(60deg); */
-    /* top: 50%; 
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
-    /* top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%,-50%); */
     border-radius: 15%;
-    width: 13rem;height: 13rem;top: 50%; left: 50%; 
-              transform: translate(-50%, -50%) rotate(-5deg);
+    width: 13rem;
+    height: 13rem;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%) rotate(-5deg);
 
 }
 
 .outer-frame {
-    /* transform: rotate(45deg); */
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%) rotate(45deg); */
     border-radius: 15%;
     top: 50%;
     left: 50%;
@@ -51,25 +49,25 @@ body {
 
 
 .profile-img {
-  /* width: 70%;  /* smaller than inner
-  height: 70%;
-  object-fit: cover; */
   border-radius: 15%;
-
-  /* position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%); */
-  width: 10rem;height: 10rem;top: 60%; left: 50%; 
-              transform: translate(-50%, -50%);
+  width: 10rem;
+  height: 10rem;
+  top: 60%; 
+  left: 50%; 
+transform: translate(-50%, -50%);
   
 }
-
+section{
+    scroll-margin-top: 4rem;
+}
 
 #about .rounded-pill {
     width: 1.2rem;
     height: 3rem;
 }
+.block{
+        height: 10rem;
+    }
 .slidingCircle{
     animation-name: slideMeDown;
     animation-duration: 2s;
@@ -101,10 +99,35 @@ top: 40%;
   transform: translate(-50%,-50%);
 }
 
+.btn:hover{
+    background-color:rgb(7, 133, 206)!important ;
+}
+
 @media(max-width:768px){
-    .block{
+    /* .block{
         height: 10rem;
-    }
+    } */
+     #heroSection{
+    height:30rem;
+}
+      .inner-frame {
+    width: 11rem;
+    height: 11rem;
+
+
+}
+.outer-frame {
+    width: 13rem;height: 13rem;
+
+} 
+.profile-img {
+  width: 8rem;
+  height: 8rem;
+  
+}
+/* .profile-pic{
+
+} */
 }
 /* .img-fixed {
     width: 50%; */
@@ -113,32 +136,8 @@ top: 40%;
       object-fit: contain;
 } */
 
-/* .line{
-    background-color: rgb(7, 133, 206);
-    width: 3px;
-    height: auto;
-}
-.block{
-    background-color: aqua;
-} */
+
 /* header{
     height: 20rem;
     position: relative;
-} */
-/* .photo-frame1{
-    width: 200px;
-    height: 200px;
-    transform: rotate(45deg);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-.photo-frame2{
-    width: 150px;
-    height: 150px;
-    transform: rotate(45deg);
-    position: absolute;
-    top: 50%;
-    left: 50%;
 } */
