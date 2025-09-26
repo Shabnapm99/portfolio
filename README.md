@@ -1,1 +1,1 @@
-shabnapmportfolio.netlify.app
+https://shabnapmportfolio.netlify.app/
